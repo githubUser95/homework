@@ -22,7 +22,7 @@ public class Tasks {
         return sum;
     }
 
-    public static void sortArray(int[] arr) {
+    public static void sortArray(final int[] arr) {
         int first = 0;
         int last = arr.length - 1;
         while (first < last) {
